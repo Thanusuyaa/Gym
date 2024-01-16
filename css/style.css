@@ -1,0 +1,104 @@
+.body{
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .header{
+      width: 100%;
+      float: left;
+  }
+ .bg{
+    width: 100%;
+    float: left;
+ }
+.header-left{
+    width: 30%;
+    float: left;
+}
+.logo{
+    width: 25%;
+    float: left;
+    margin-top: -870px;
+    margin-left: 90px; 
+}
+.header-right{
+    width: 70;
+    float: right;
+    margin-top: -870px;
+    margin-right: 90px; 
+}
+.header-right li{
+    display: inline-block;
+    list-style-type: none;
+}
+.header-right li a {
+    text-decoration: none;
+    padding: 30px;
+    color:  whitesmoke;
+}
+.active{
+    border: solid blue 2px;
+    border-radius: 20px;
+}
+.main{
+    width: 100%;
+    float: left;
+}
+.main h1{
+    color: whitesmoke;
+    font-size: 40px;
+    margin-left: 130px;
+    margin-top: -590px;
+}
+.main h6{
+    color:whitesmoke;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.main h5{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: -30px;
+}
+.main p{
+    color: whitesmoke;
+    margin-left: 230px;
+    margin-top: -10px;
+}
+.active1 {
+    border: solid blue 2px;
+    border-radius: 20px;
+    width: 13%;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
+.footer{
+    width: 100%;
+    padding: 30px;   
+}
+.footer p{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: -30px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+.nav-menu{
+    margin-left: 1100px;
+    margin-top: 820px;
+    position: absolute;
+}
+.nav-menu p {
+    
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -30px;
+    position: absolute;
+    font-size: 20px;
+ 
+}
